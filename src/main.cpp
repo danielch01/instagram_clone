@@ -5,9 +5,11 @@ int main()
     crow::SimpleApp app;
 
     CROW_ROUTE(app, "/")
-    ([](){
-        return "Hello from Crow!";
-    });
+([](){
+    crow::response res;
+    res.set_static_file_info("static/index.html");
+    return res;
+});
 
     app.port(18080).multithreaded().run();
 
