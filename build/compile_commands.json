@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/danielchoi/Developer/Projects/ig-clone/build",
+  "command": "/usr/bin/clang++  -I/Users/danielchoi/Developer/Projects/ig-clone/third_party/Crow/include -I/Users/danielchoi/Developer/Projects/ig-clone/include -I/opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/ig_clone.dir/src/main.cpp.o -c /Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp",
+  "file": "/Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp",
+  "output": "CMakeFiles/ig_clone.dir/src/main.cpp.o"
+}
+]

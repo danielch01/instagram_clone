@@ -76,15 +76,15 @@ CMakeFiles/ig_clone.dir/src/main.cpp.o: CMakeFiles/ig_clone.dir/flags.make
 CMakeFiles/ig_clone.dir/src/main.cpp.o: /Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp
 CMakeFiles/ig_clone.dir/src/main.cpp.o: CMakeFiles/ig_clone.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danielchoi/Developer/Projects/ig-clone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ig_clone.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ig_clone.dir/src/main.cpp.o -MF CMakeFiles/ig_clone.dir/src/main.cpp.o.d -o CMakeFiles/ig_clone.dir/src/main.cpp.o -c /Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ig_clone.dir/src/main.cpp.o -MF CMakeFiles/ig_clone.dir/src/main.cpp.o.d -o CMakeFiles/ig_clone.dir/src/main.cpp.o -c /Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp
 
 CMakeFiles/ig_clone.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ig_clone.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp > CMakeFiles/ig_clone.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp > CMakeFiles/ig_clone.dir/src/main.cpp.i
 
 CMakeFiles/ig_clone.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ig_clone.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp -o CMakeFiles/ig_clone.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danielchoi/Developer/Projects/ig-clone/src/main.cpp -o CMakeFiles/ig_clone.dir/src/main.cpp.s
 
 # Object files for target ig_clone
 ig_clone_OBJECTS = \
